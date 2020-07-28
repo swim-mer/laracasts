@@ -45,7 +45,7 @@
         // htmlspecialchars() function forces the value to be read as chars
         // and will not execute code
         // : sanitizing inputs
-        // update url to: http://localhost:888/?name<a%20href="https://www.lmgtfy.com">YourName</a>
+        // update url to: http://localhost:888/?name=<a%20href="https://www.lmgtfy.com">YourName</a>
         echo "Bye, " . htmlspecialchars($_GET['name']);
 
       ?>
