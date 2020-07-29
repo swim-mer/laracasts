@@ -18,4 +18,11 @@ $candies = [
   'chocolate'
 ];
 
+$tasks = [
+  'title' => 'mail a card',
+  'assigned_to' => 'Penelope',
+  'due' => 'tomorrow',
+  'completed' => false
+];
+
 require 'index.view.php';

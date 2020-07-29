@@ -65,6 +65,14 @@
 
   </ul>
 
+  <div>
+
+    <h3> Tasks Summary </h3>
+
+          <strong>Status: </strong> <?= $tasks['completed'] ? 'Complete' : 'Incomplete'; ?>
+
+  </div>
+
 </body
 
 </html>
