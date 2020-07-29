@@ -57,7 +57,7 @@
       // becomes cumbersome with more complex HTML
       foreach ($candies as $candy) {
 
-          echo "<li>$name likes $candy";
+          echo "<li>$name likes $candy</li>";
 
       }
 
