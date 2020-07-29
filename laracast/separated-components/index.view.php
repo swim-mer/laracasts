@@ -71,6 +71,14 @@
 
           <strong>Status: </strong> <?= $tasks['completed'] ? 'Complete' : 'Incomplete'; ?>
 
+          <?php
+            // shorthand
+            if ($tasks['completed']) : ?>
+
+              <span class='icon'>&#9989;</span>
+
+          <?php endif; ?>
+
   </div>
 
 </body
