@@ -73,9 +73,9 @@
 
           <?php
             // shorthand
-            if ($tasks['completed']) : ?>
+            if (! $tasks['completed']) : ?>
 
-              <span class='icon'>&#9989;</span>
+              <span class='icon'>&#128308;</span>
 
           <?php endif; ?>
 

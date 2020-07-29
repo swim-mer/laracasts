@@ -22,7 +22,7 @@ $tasks = [
   'title' => 'mail a card',
   'assigned_to' => 'Penelope',
   'due' => 'tomorrow',
-  'completed' => true
+  'completed' => false
 ];
 
 require 'index.view.php';
