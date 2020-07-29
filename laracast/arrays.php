@@ -13,3 +13,6 @@ $names = [
 foreach ($names as $name) {
   echo $name;
 }
+
+// push to array
+$names[] = 'Ursula';
