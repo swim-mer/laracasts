@@ -25,4 +25,5 @@ $tasks = [
   'completed' => false
 ];
 
+require 'functions.php';
 require 'index.view.php';

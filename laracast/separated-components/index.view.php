@@ -69,15 +69,23 @@
 
     <h3> Tasks Summary </h3>
 
-          <strong>Status: </strong> <?= $tasks['completed'] ? 'Complete' : 'Incomplete'; ?>
+    <strong>Status: </strong> <?= $tasks['completed'] ? 'Complete' : 'Incomplete'; ?>
 
-          <?php
-            // shorthand
-            if (! $tasks['completed']) : ?>
+    <?php if (! $tasks['completed']) : ?>
 
-              <span class='icon'>&#128308;</span>
+      <span class='icon'>&#128308;</span>
 
-          <?php endif; ?>
+    <?php endif; ?>
+
+  </div>
+
+
+
+  <div>
+
+    <h4> $candies array </h4>
+
+    <?php dd($candies); ?>
 
   </div>
 
