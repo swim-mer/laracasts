@@ -83,9 +83,9 @@
 
   <div>
 
-    <h4> $candies array </h4>
+    <h4> $colors array </h4>
 
-    <?php dd($candies); ?>
+    <?php dd($colors); ?>
 
   </div>
 

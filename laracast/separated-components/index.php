@@ -25,5 +25,12 @@ $tasks = [
   'completed' => false
 ];
 
+
+$colors = [
+  'blue',
+  'yellow',
+  'green'
+];
+
 require 'functions.php';
 require 'index.view.php';

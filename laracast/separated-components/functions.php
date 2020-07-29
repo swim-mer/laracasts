@@ -6,13 +6,6 @@
     }
 */
 
-$colors = [
-  'blue',
-  'yellow',
-  'green'
-];
-
-
 // function to die() and dump() an array with <pre> (preformatted) tags
 // to preserve formatting
 function dd($list) {
