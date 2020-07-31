@@ -46,7 +46,6 @@
   </div>
   <div>
     <h3> Created Tasks Complete Status </h3>
-    <p><?php var_dump((new Task('Vacuum'))->isComplete()); ?></p>
     <ul>
       <?php foreach ($tasks_ as $task_) : ?>
         <li>
@@ -54,6 +53,18 @@
             <strike><?= $task_->description; ?></strike>
           <?php else: ?>
             <?= $task_->description; ?>
+          <?php endif; ?>
+        </li>
+      <?php endforeach; ?>
+    </ul>
+    <h4>From mytodos database:</h4>
+    <ul>
+      <?php foreach ($tasks__ as $task__) : ?>
+        <li>
+          <?php if ($task__->completed) : ?>
+            <strike><?= $task__->description; ?></strike>
+          <?php else: ?>
+            <?= $task__->description; ?>
           <?php endif; ?>
         </li>
       <?php endforeach; ?>
