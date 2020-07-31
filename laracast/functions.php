@@ -13,7 +13,8 @@ function dd($list) {
   die(var_dump($list));
 }
 
-class Example {
+// example of static method in action
+class Static {
   // make method available globally without requiring instance
   public static function make()
   {
@@ -22,4 +23,4 @@ class Example {
 }
 
 // call static method without making instance of class
-Example::make();
+Static::make();
