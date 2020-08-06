@@ -30,7 +30,7 @@ class Task {
 
 
 // instantiate a new object instance of Task class
-$task = new Task('Go to the store')
+$task = new Task('Go to the store');
 
 // cannot do this because $description is protected
 $task->description;

@@ -21,7 +21,7 @@ echo "Hi $name";
 echo 'Hello ' . $name;
 
 // Reference a variable with mustache syntax for clarity
-echo "Hello {$name}"
+echo "Hello {$name}";
 
 // end PHP with ? >
 // If a file contains only php it is best practice to omit closing tag

@@ -22,5 +22,5 @@ if ($tasks['completed']) {
 
 // if false
 if (! $tasks['completed']) {
-  echo 'Get to work!'
+  echo 'Get to work!';
 }
