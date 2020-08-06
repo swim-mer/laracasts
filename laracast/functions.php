@@ -13,8 +13,19 @@ function dd($list) {
   die(var_dump($list));
 }
 
+
+// example of non-static method
+class NonStaticClass {
+  public function make()
+  {
+    echo 'This was more complicated to print';
+  }
+}
+$nonStatic = new NonStaticClass();
+$nonStatic->make();
+
 // example of static method in action
-class Static {
+class StaticClass {
   // make method available globally without requiring instance
   public static function make()
   {
@@ -23,4 +34,4 @@ class Static {
 }
 
 // call static method without making instance of class
-Static::make();
+StaticClass::make();
