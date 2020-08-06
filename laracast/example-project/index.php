@@ -32,6 +32,9 @@ $colors = [
   'green'
 ];
 
-require 'functions.php';
-require 'pdo.php';
+$query = require 'bootstrap.php';
+
+$tasks__ = $query->selectAll('todos');
+
+require 'Task.php';
 require 'index.view.php';
