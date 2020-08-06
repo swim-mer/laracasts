@@ -69,6 +69,5 @@
         </li>
       <?php endforeach; ?>
     </ul>
-    <p><?php dd($tasks_); ?></p>
 </body
 </html>
