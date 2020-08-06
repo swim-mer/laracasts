@@ -51,4 +51,4 @@ var_dump($tasks__);
 var_dump($tasks__[0]);
 
 // load query results into a Task class object
-$task_objects = $statement->fetchAll(PDO::FETCH_CLASS, 'Task')
+$task_objects = $statement->fetchAll(PDO::FETCH_CLASS, 'Task');
