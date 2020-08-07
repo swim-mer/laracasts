@@ -1,20 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Document</title>
-    <style>
-      header {
-        background: #F08080;
-        padding: 5em;
-        text-align: center;
-      }
-    </style>
+  <meta charset="UTF-8">
+  <title>Document</title>
 </head>
-<body>
-  <header>
-  </header>
-  <footer>
-  </footer>
+  <h1>Main Page</h1>
 </body>
 </html>
