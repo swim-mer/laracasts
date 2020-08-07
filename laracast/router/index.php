@@ -1,5 +1,3 @@
 <?php
 
-$query = require 'core/bootstrap.php';
-
-require 'views/index.view.php';
+$database = require 'core/bootstrap.php';
