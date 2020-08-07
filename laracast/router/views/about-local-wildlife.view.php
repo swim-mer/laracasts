@@ -11,6 +11,6 @@
       }
     </style>
 </head>
-  <h1>Local Wildlife</h1>
+  <h1><?= 'Local Wildlife'; ?></h1>
 </body>
 </html>
